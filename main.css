@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#000066, grey);
+  font-family: 'Indie Flower', cursive;
+}
+
+.flexer {
+  display: flex;
+}
+
+.board {
+  width: 30%;
+  min-width: 450px;
+  height: 96vh;
+  margin: 2vh auto;
+  background: linear-gradient(#0000ff, #0000cc);
+}
+
+/***** answer container *****/
+.answer-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  border: 1px solid black;
+}
+
+.answer-box {
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  border: 1px solid red;
+}
+
+.button-container {
+  width: 30%;
+  height: 100%;
+}
+
+.submit-btn {
+  width: 80%;
+  height: 80%;
+  background: linear-gradient(#000066, grey);
+  margin: auto;
+  text-align: center;
+  margin-top: 5px;
+  line-height: 300%;
+  box-shadow: 2px 2px 4px white;
+}
+
+.text {
+  margin: 0 auto;
+}
+
+/***** guess container *****/
+.guess-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80%;
+  border: 1px solid black;
+}
+
+/***** selection container *****/
+.selection-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  border: 1px solid black;
+}
