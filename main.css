@@ -29,7 +29,15 @@ body {
   box-sizing: border-box;
   width: 70%;
   height: 100%;
-  border: 1px solid red;
+}
+
+.answer {
+  width: 70%;
+  height: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 5px;
+  background: linear-gradient(grey, #000066, grey);
 }
 
 .button-container {
